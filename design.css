@@ -1,0 +1,84 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin: auto;
+}
+
+body{
+    background-color: #222222;
+}
+
+.cfs-body .cfs-header{
+    background-color: #009933;
+    padding: 2rem;
+}
+
+img{
+    max-height: 100% !important;
+    width: 10rem;
+}
+
+.left-side{
+    float: inline-start;
+}
+.left-side h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    margin-top: -.5rem;
+}
+
+.cfs-body .cfs-header .right-side{
+    position: absolute;  
+    right: 0; 
+    top: 0; 
+} 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.cfs-cont{
+    margin: 3rem 2rem;
+    text-align: center;
+}
+
+.cfs-cont .cfs-h2-signup-title{
+    color: rgb(0, 0, 0);
+    max-width: 100% !important;
+    width: 20%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 1rem rgba(77, 76, 76, 0.5);
+    margin-bottom: 1rem;
+    background-color: rgb(62, 250, 118);
+} 
+
+.cfs-cont .cfs-cont-formbox{
+    color: rgb(62, 250, 118);
+    max-width: 100% !important;
+    width: 20%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 1rem rgba(77, 76, 76, 0.5);
+    margin-bottom: 1rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.submit-btn{
+    color: #000000;
+    background-color: rgb(62, 250, 118);
+    font-weight: bold;
+    size: 1rem;
+    border-radius: .5rem;
+    border: #000000 2px solid;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 1rem rgba(230, 230, 230, 0.5);
+    margin: .5rem 1rem;
+}
+.submit-btn:hover{
+    cursor: pointer;
+    color: rgb(62, 250, 118);
+    border: 2px solid;
+    background-color: rgba(77, 76, 76, 0.5);
+}
